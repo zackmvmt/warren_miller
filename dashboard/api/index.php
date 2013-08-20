@@ -3,9 +3,9 @@
 	require_once 'Slim/Slim.php';
 	require_once 'idiorm.php';
 	
-	ORM::configure('mysql:host=108.171.172.251;dbname=wme_2012');
-	ORM::configure('username', 'fbdev');
-	ORM::configure('password', 'Movement456');
+	ORM::configure('');
+	ORM::configure('username', '');
+	ORM::configure('password', '');
 	
 	$app = new Slim();
 	
